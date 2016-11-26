@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/pieceOpiland/travis-ci-playground/issues"
   },
+  "engines": {
+    "node": "4.2.6"
+  },
   "homepage": "https://github.com/pieceOpiland/travis-ci-playground#readme",
   "dependencies": {
     "express": "^4.14.0",
