@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "heroku-postbuild": "grunt productuion",
+    "heroku-postbuild": "grunt production",
     "postinstall": "bower install",
     "test": "mocha"
   },

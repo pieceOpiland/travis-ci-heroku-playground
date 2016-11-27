@@ -12,10 +12,6 @@ if( process.env.NODE_ENV === "production" ) {
   app.use("/", express.static(path.join(__dirname, "web")));
 }
 
-app.get("/env", function(req, res){
-  res.json({env: process.env.NODE_ENV});
-});
-
 const srv = http.createServer(app);
 
 const wss = new WebSocketServer({
