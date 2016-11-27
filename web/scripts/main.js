@@ -1,8 +1,8 @@
 (function(){
   // Bootstrap the app here.
-  require(["jquery"], function($){
+  require(["jquery", "bootstrap"], function($){
     $(function(){
-      alert("I'm loaded!");
+      console.log("I've loaded.");
     });
   });
 })();
