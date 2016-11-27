@@ -6,7 +6,11 @@ const WebSocketServer = require("ws").Server;
 const app = express();
 const port = process.env.PORT || 8000;
 
-app.use("/", express.static(path.join(__dirname, "web")));
+if( process.env.NODE_ENV === "production" ) {
+  app.use("/", express.static(path.join(__dirname, "build")));
+} else {
+  app.use("/", express.static(path.join(__dirname, "web")));
+}
 
 app.get("/env", function(req, res){
   res.json({env: process.env.NODE_ENV});
