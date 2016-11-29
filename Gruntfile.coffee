@@ -11,7 +11,7 @@ module.exports = (grunt) ->
 
     clean:
       main: ['build'],
-      dist: ['build/scripts', 'build/less', 'build/libs']
+      dist: ['build/scripts', 'build/less', 'build/libs', 'build/test']
 
     requirejs:
       options:

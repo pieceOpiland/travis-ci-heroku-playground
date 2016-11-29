@@ -17,6 +17,9 @@
     "bootstrap": "^3.3.7",
     "requirejs": "^2.3.2",
     "less": "^2.7.1",
-    "almond": "^0.3.3"
+    "almond": "^0.3.3",
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0",
+    "sinon-1.17.6": "http://sinonjs.org/releases/sinon-1.17.6.js"
   }
 }
