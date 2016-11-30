@@ -27,7 +27,7 @@ define(function(require){
     
     it("renders the into the container.", function(done){
       TodoList.renderInto($container).then(function(){
-        expect($container.find("li").length).to.equal(1);
+        expect($container.find("li").length).to.equal(TEST_DATA.length);
         done();
       });
       expect(requests.length).to.equal(1);
