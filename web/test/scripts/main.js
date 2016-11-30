@@ -26,7 +26,7 @@ var should = chai.should();
     }
   });
   
-  require(["specs/TestSpec"], function(){
+  require(["specs/TestSpec", "specs/TodoListSpec"], function(){
     if( isKarma ) {
       window.__karma__.start();
     } else {
