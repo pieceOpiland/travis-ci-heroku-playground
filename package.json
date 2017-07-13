@@ -19,7 +19,7 @@
     "url": "https://github.com/pieceOpiland/travis-ci-playground/issues"
   },
   "engines": {
-    "node": "4.2.6"
+    "node": "4.8.4"
   },
   "homepage": "https://github.com/pieceOpiland/travis-ci-playground#readme",
   "dependencies": {
