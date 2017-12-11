@@ -19,7 +19,7 @@ module.exports = function(config) {
       'libs/chai/chai.js',
       'libs/sinon-1.17.6/index.js',
       {pattern: 'scripts/**/*.js', included: false},
-      {pattern: 'test/**/*.js', included: false},
+      {pattern: 'test/scripts/specs/*.js', included: false},
       {pattern: 'libs/jquery/dist/**/*.js', included: false},
       {pattern: 'libs/bootstrap/dist/**/*.js', included: false},
       
@@ -66,7 +66,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Firefox'],
+    browsers: ['PhantomJS'],
 
 
     // Continuous Integration mode
