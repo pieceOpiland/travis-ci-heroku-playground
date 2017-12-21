@@ -4,7 +4,7 @@ define(function(require){
   describe("TodoList", function(){
     var $container = $("<div>");
     var TEST_DATA = [{
-      id: "fea2390a",
+      _id: "fea2390a",
       item: "Just a test",
       isDone: false
     }];

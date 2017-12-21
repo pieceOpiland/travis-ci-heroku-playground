@@ -6,7 +6,7 @@
   "scripts": {
     "heroku-postbuild": "grunt production",
     "postinstall": "bower install",
-    "test": "mocha && karma start --single-run"
+    "test": "karma start --single-run"
   },
   "repository": {
     "type": "git",
