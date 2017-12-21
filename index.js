@@ -1,12 +1,16 @@
 const express = require("express");
-const bodyParser = require("body-parser");
 const http = require("http");
+
 const path = require("path");
+const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
 
 const router = require("./src/routes");
 
 const app = express();
 const port = process.env.PORT || 8000;
+
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/todoapp");
 
 app.use(bodyParser.json());
 app.use("/rest", router);

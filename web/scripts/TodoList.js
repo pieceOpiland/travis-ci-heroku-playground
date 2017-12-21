@@ -3,7 +3,7 @@ define(function(require){
   var $list = $("<ul>");
   var renderItem = function(task){
     var $checkbox = $("<input type=\"checkbox\" />");
-    $checkbox.data("id", task.id);
+    $checkbox.data("id", task._id);
     $checkbox.prop("checked", task.isDone);
     $checkbox.prop("disabled", task.isDone);
     
